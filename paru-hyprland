@@ -39,7 +39,7 @@
 # Asusctl, Supergfxctl (ASUS ROG laptop stuffs)
 
 # Define color variables
-GREEN="$(tput setaf 2)[OK]$(tput sgr0)"
+GREEN="$(tput setaf 2[OK]$(tput sgr0)"
 RED="$(tput setaf 1)[ERROR]$(tput sgr0)"
 YELLOW="$(tput setaf 3)[NOTE]$(tput sgr0)"
 CAT="$(tput setaf 6)[ACTION]$(tput sgr0)"
@@ -139,7 +139,7 @@ if [[ $inst =~ ^[Yy]$ ]]; then
    hypr_pkgs="foot swaybg swaylock-effects wofi wlogout mako xdg-desktop-portal-hyprland  grim slurp wl-clipboard polkit-gnome"    
    font_pkgs="otf-font-awesome ttf-jetbrains-mono-nerd otf-font-awesome-4 ttf-droid ttf-fantasque-sans-mono"
    app_pkgs="nwg-look-bin qt5ct btop jq gvfs ffmpegthumbs swww mousepad mpv"
-   app_pkgs2="python-requests  pamixer brightnessctl viewnior pavucontrol playerctl mpv network-manager-applet cava"
+   app_pkgs2="python-requests  pamixer brightnessctl viewnior pipewire-alsa pavucontrol playerctl mpv network-manager-applet cava"
 
        
     if ! paru -S --noconfirm $git_pkgs $hypr_pkgs $font_pkgs $app_pkgs $app_pkgs2 2>&1 | tee -a $LOG; then
