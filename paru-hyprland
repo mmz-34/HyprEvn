@@ -39,7 +39,7 @@
 # Asusctl, Supergfxctl (ASUS ROG laptop stuffs)
 
 # Define color variables
-GREEN="$(tput setaf 2[OK]$(tput sgr0)"
+GREEN="$(tput setaf 2)[OK]$(tput sgr0)"
 RED="$(tput setaf 1)[ERROR]$(tput sgr0)"
 YELLOW="$(tput setaf 3)[NOTE]$(tput sgr0)"
 CAT="$(tput setaf 6)[ACTION]$(tput sgr0)"
