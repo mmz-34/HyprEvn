@@ -113,3 +113,5 @@ Gentoo Specific
 4. if you use openrc, ensure to launch hyprland with dbus-run-session Hyprland. Omitting the dbus-run-session may cause [`runtime errors`](https://wiki.gentoo.org/wiki/Sway#Failed_to_connect_to_user_bus)
 5. `fonts` you need fontawesome and nerd-fonts (X jetbrainsmono symbolsmono) (available in overlay) to display some icons in waybar
 
+### ✨ known-issues:
+- [ ] weather data sometimes does not give data. This is because module is not receiving data from weather server. Deleting the rbn folder in your ~/.cache sometimes help
